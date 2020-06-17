@@ -59,6 +59,7 @@ body .dg.main .close-button:hover {
 }
 
 .frame__title {
+	text-align: center;
 	font-size: 1rem;
 	margin: 0 0 1rem;
 }
