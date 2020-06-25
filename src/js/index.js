@@ -51,27 +51,27 @@ const reflectionFbo = regl.framebufferCube(1024)
  */
 const textures = [
   {
-    texture: Texture(regl, "httpd://r4p5n3z8.stackpathcdn.com/logo.png"),
+    texture: Texture(regl, "logo.png"),
     typeId: ContentTypes.RAINBOW,
     maskId: CubeMasks.M1,
   },
   {
-    texture: Texture(regl, "httpd://r4p5n3z8.stackpathcdn.com/logo.png"),
+    texture: Texture(regl, "logo.png"),
     typeId: ContentTypes.BLUE,
     maskId: CubeMasks.M2,
   },
   {
-    texture: Texture(regl, "httpd://r4p5n3z8.stackpathcdn.com/logo.png"),
+    texture: Texture(regl, "logo.png"),
     typeId: ContentTypes.RED,
     maskId: CubeMasks.M3,
   },
   {
-    texture: Texture(regl, "https://r4p5n3z8.stackpathcdn.com/text-1.png"),
+    texture: Texture(regl, "text-1.png"),
     typeId: ContentTypes.BLUE,
     maskId: CubeMasks.M4,
   },
   {
-    texture: Texture(regl, "https://r4p5n3z8.stackpathcdn.com/text-2.png"),
+    texture: Texture(regl, "text-2.png"),
     typeId: ContentTypes.RED,
     maskId: CubeMasks.M5,
   },
